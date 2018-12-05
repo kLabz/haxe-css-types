@@ -1,0 +1,16 @@
+{
+  "name": "css-types",
+  "description": "Typings for css properties",
+  "version": "0.1.0",
+  "releasenote": "Initial release",
+  "url": "https://gitlab.com/k-labz/haxe-oss/haxe-css-types",
+  "license": "MIT",
+  "tags": [
+    "css"
+  ],
+  "classPath": "src",
+  "contributors": [
+    "klabz"
+  ]
+}
+
