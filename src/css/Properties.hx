@@ -125,7 +125,7 @@ typedef Properties = {
   @:optional var flexDirection(default, never):FlexDirection;
   @:optional var flexFlow(default, never):FlexFlow;
   @:optional var flexGrow(default, never):IntString;
-  @:optional var flexShrink(default, never):String;
+  @:optional var flexShrink(default, never):IntString;
   @:optional var flexWrap(default, never):FlexWrap;
   @:optional var float(default, never):String;
   @:optional var floatOffset(default, never):String;
