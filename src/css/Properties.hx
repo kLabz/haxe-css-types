@@ -268,6 +268,7 @@ typedef Properties = {
   @:optional var rubyAlign(default, never):String;
   @:optional var rubyMerge(default, never):String;
   @:optional var rubyPosition(default, never):String;
+  @:optional var scrollBehavior(default, never):ScrollBehavior;
   @:optional var shapeImageThreshold(default, never):String;
   @:optional var shapeOutside(default, never):String;
   @:optional var shapeMargin(default, never):String;
