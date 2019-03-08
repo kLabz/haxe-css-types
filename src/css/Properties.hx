@@ -253,6 +253,7 @@ typedef Properties = {
   @:optional var pitch(default, never):String;
   @:optional var pitchRange(default, never):String;
   @:optional var playDuring(default, never):String;
+  @:optional var pointerEvents(default, never):PointerEvents;
   @:optional var position(default, never):Position;
   @:optional var presentationLevel(default, never):String;
   @:optional var quotes(default, never):String;

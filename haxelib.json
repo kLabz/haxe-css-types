@@ -1,7 +1,7 @@
 {
   "name": "css-types",
   "description": "Typings for css properties",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "releasenote": "Add scrollBehavior",
   "url": "https://gitlab.com/k-labz/haxe-oss/haxe-css-types",
   "license": "MIT",
