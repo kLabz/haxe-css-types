@@ -127,7 +127,7 @@ typedef Properties = {
   @:optional var flexGrow(default, never):IntString;
   @:optional var flexShrink(default, never):IntString;
   @:optional var flexWrap(default, never):FlexWrap;
-  @:optional var float(default, never):String;
+  @:optional var float(default, never):CssFloat;
   @:optional var floatOffset(default, never):String;
   @:optional var floodColor(default, never):String;
   @:optional var floodOpacity(default, never):String;
