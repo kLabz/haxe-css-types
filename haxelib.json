@@ -1,8 +1,8 @@
 {
   "name": "css-types",
   "description": "Typings for css properties",
-  "version": "0.2.0",
-  "releasenote": "Add scrollBehavior",
+  "version": "0.2.1",
+  "releasenote": "Add float enum",
   "url": "https://gitlab.com/k-labz/haxe-oss/haxe-css-types",
   "license": "MIT",
   "tags": [
