@@ -10,7 +10,7 @@ abstract IntString from String from Int from Float from Array<Float> from Array<
 typedef Properties = {
   @:optional var alignContent(default, never):AlignContent;
   @:optional var alignItems(default, never):AlignItems;
-  @:optional var alignSelf(default, never):String;
+  @:optional var alignSelf(default, never):AlignSelf;
   @:optional var alignmentAdjust(default, never):String;
   @:optional var alignmentBaseline(default, never):String;
   @:optional var all(default, never):String;
