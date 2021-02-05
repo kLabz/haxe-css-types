@@ -1,8 +1,8 @@
 {
   "name": "css-types",
   "description": "Typings for css properties",
-  "version": "0.2.3",
-  "releasenote": "Add align-self (+ enum)",
+  "version": "0.2.4",
+  "releasenote": "Add border-colapse (+ enum)",
   "url": "https://gitlab.com/k-labz/haxe-oss/haxe-css-types",
   "license": "MIT",
   "tags": [

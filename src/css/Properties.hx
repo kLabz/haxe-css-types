@@ -48,7 +48,7 @@ typedef Properties = {
   @:optional var borderBottomRightRadius(default, never):IntString;
   @:optional var borderBottomStyle(default, never):String;
   @:optional var borderBottomWidth(default, never):IntString;
-  @:optional var borderCollapse(default, never):String;
+  @:optional var borderCollapse(default, never):BorderCollapse;
   @:optional var borderColor(default, never):String;
   @:optional var borderImage(default, never):String;
   @:optional var borderImageOutset(default, never):String;
