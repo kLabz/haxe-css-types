@@ -1,9 +1,9 @@
 {
   "name": "css-types",
   "description": "Typings for css properties",
-  "version": "0.2.4",
-  "releasenote": "Add border-colapse (+ enum)",
-  "url": "https://gitlab.com/k-labz/haxe-oss/haxe-css-types",
+  "version": "0.9.0",
+  "releasenote": "Rewrite IntOrString, add css writer",
+  "url": "https://github.com/kLabz/haxe-css-types",
   "license": "MIT",
   "tags": [
     "css"
