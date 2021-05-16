@@ -32,7 +32,7 @@ abstract CSSNumber(String) from String to String {
 	static function fromNumber(nb:Float):CSSNumber return Std.string(nb);
 }
 
-// Based off https://github.com/back2dos/js-virtual-dom 's vdom.Style
+// Based off https://github.com/haxetink/tink_domspec/blob/master/src/tink/domspec/Style.hx
 // Adapted to support non-string values and enums (WIP)
 @:using(css.Properties.PropertiesHelper)
 typedef Properties = {
@@ -381,6 +381,8 @@ class PropertiesHelper {
 	}
 
 	public static function hyphenize(key:String):String {
+		if (StringTools.startsWith(key, '--')) return key;
+
 		return ~/([A-Z])/g.map(key, function(reg) {
 			return '-' + reg.matched(1).toLowerCase();
 		});

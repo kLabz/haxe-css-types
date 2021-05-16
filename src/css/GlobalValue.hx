@@ -7,6 +7,7 @@ package css;
 	var Unset = "unset";
 
 	public static function Var(v:String):GlobalValue {
+		while (!StringTools.startsWith(v, '--')) v = '-' + v;
 		return cast 'var($v)';
 	}
 }

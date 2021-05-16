@@ -1,8 +1,8 @@
 {
   "name": "css-types",
   "description": "Typings for css properties",
-  "version": "0.9.0",
-  "releasenote": "Rewrite IntOrString, add css writer",
+  "version": "0.9.1",
+  "releasenote": "Fix CSS variables, add README",
   "url": "https://github.com/kLabz/haxe-css-types",
   "license": "MIT",
   "tags": [
