@@ -205,7 +205,7 @@ typedef Properties = {
 	@:optional var lineBoxContain(default, never):String;
 	@:optional var lineBreak(default, never):String;
 	@:optional var lineGrid(default, never):String;
-	@:optional var lineHeight(default, never):CSSLength;
+	@:optional var lineHeight(default, never):CSSNumber;
 	@:optional var lineSnap(default, never):String;
 	@:optional var lineStacking(default, never):String;
 	@:optional var lineStackingRuby(default, never):String;
