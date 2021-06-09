@@ -5,7 +5,7 @@ import css.Overflow;
 abstract CSSLengthOrArray(String) from CSSLength from String to String {
 	@:from
 	static function fromArr(arr:Array<CSSLength>):CSSLengthOrArray {
-		return arr.map(i -> (i:String)).join(' ');
+		return arr.map(function(i) return (i:String)).join(' ');
 	}
 
 	@:from
@@ -15,7 +15,7 @@ abstract CSSLengthOrArray(String) from CSSLength from String to String {
 abstract CSSNumberOrArray(String) from CSSNumber from String to String {
 	@:from
 	static function fromArr(arr:Array<CSSNumber>):CSSNumberOrArray {
-		return arr.map(i -> (i:String)).join(' ');
+		return arr.map(function(i) return (i:String)).join(' ');
 	}
 
 	@:from
@@ -34,7 +34,9 @@ abstract CSSNumber(String) from String to String {
 
 // Based off https://github.com/haxetink/tink_domspec/blob/master/src/tink/domspec/Style.hx
 // Adapted to support non-string values and enums (WIP)
+#if (haxe_ver >= 4.2)
 @:using(css.Properties.PropertiesHelper)
+#end
 typedef Properties = {
 	@:optional var alignContent(default, never):AlignContent;
 	@:optional var alignItems(default, never):AlignItems;
