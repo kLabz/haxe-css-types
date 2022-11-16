@@ -10,4 +10,8 @@ package css;
 		while (!StringTools.startsWith(v, '--')) v = '-' + v;
 		return cast 'var($v)';
 	}
+
+	public static function Important(v:Any):GlobalValue {
+		return cast '$v !important';
+	}
 }
