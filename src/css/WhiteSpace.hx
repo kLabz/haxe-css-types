@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract WhiteSpace(String) from GlobalValue to String {
+enum abstract WhiteSpace(String) from GlobalValue to String {
 	var Normal = "normal";
 	var NoWrap = "nowrap";
 	var Pre = "pre";

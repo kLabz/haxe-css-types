@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract Position(String) from GlobalValue to String {
+enum abstract Position(String) from GlobalValue to String {
 	var Static = "static";
 	var Relative = "relative";
 	var Absolute = "absolute";

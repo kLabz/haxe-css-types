@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract JustifyContent(String) from GlobalValue to String {
+enum abstract JustifyContent(String) from GlobalValue to String {
 	var Center = "center";
 	var Start = "start";
 	var End = "end";

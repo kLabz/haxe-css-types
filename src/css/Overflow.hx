@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract OverflowCompo(String) from GlobalValue to String {
+enum abstract OverflowCompo(String) from GlobalValue to String {
 	var Visible = "visible";
 	var Hidden = "hidden";
 	var Scroll = "scroll";
@@ -12,7 +12,7 @@ package css;
 	}
 }
 
-@:enum abstract Overflow(String) from GlobalValue to String {
+enum abstract Overflow(String) from GlobalValue to String {
 	var Visible = "visible";
 	var Hidden = "hidden";
 	var Scroll = "scroll";

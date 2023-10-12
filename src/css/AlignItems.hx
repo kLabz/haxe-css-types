@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract AlignItems(String) from GlobalValue to String {
+enum abstract AlignItems(String) from GlobalValue to String {
 	var Normal = "normal";
 	var Stretch = "stretch";
 	var Center = "center";

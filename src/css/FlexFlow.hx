@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract FlexFlow(String) from GlobalValue to String {
+enum abstract FlexFlow(String) from GlobalValue to String {
 	// FlexDirection
 	var Row = "row";
 	var RowReverse = "row-reverse";

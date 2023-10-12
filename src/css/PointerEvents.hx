@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract PointerEvents(String) from GlobalValue to String {
+enum abstract PointerEvents(String) from GlobalValue to String {
 	var Auto = "auto";
 	var All = "all";
 	var None = "none";

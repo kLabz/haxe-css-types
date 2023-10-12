@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract TextOverflow(String) from String to String {
+enum abstract TextOverflow(String) from String to String {
 	var Clip = "clip";
 	var Ellipsis = "ellipsis";
 

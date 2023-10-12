@@ -1,6 +1,6 @@
 package css;
 
-@:enum abstract VerticalAlign(String) from String from GlobalValue to String {
+enum abstract VerticalAlign(String) from String from GlobalValue to String {
 	var Baseline = "baseline";
 	var Sub = "sub";
 	var Super = "super";
